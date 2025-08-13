@@ -1,0 +1,27 @@
+# IDE stuff
+.idea/
+.vscode/
+.claude/settings.local.json
+.run/
+
+# virtual environments
+venv/
+.venv/
+
+# python detritus
+**/__pycache__/
+*.egg-info/
+dist/
+build/
+
+# secrets
+secrets/
+.env
+
+# testing stuff
+pytest.log
+.coverage
+test.db
+
+# misc
+ignored/
