@@ -1,0 +1,30 @@
+[project]
+name = "template-python"
+version = "0.1.0"
+description = ""
+authors = [
+    { name = "Nathaniel Gerlek", email = "nathaniel.gerlek@gmail.com" },
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[tool.poetry]
+package-mode = false
+
+[tool.ruff]
+line-length = 120
+
+[tool.mypy]
+strict = true
+warn_unreachable = true
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.17.1"
+pytest = "^8.4.1"
+ruff = "^0.12.8"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
