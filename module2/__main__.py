@@ -1,4 +1,4 @@
-from src.module2.mod2_a import mod2_a_func
+from module2.mod2_a import mod2_a_func
 
 
 print("Running module2/__main__.py")

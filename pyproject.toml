@@ -20,6 +20,11 @@ line-length = 120
 strict = true
 warn_unreachable = true
 
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
+]
+
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.17.1"
 pytest = "^8.4.1"

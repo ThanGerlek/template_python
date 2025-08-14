@@ -1,5 +1,5 @@
-from src.module1.mod1_b import mod1_b_func
-from src.module2.mod2_a import mod2_a_func
+from module2.mod2_a import mod2_a_func
+from module1.mod1_b import mod1_b_func
 
 
 def mod1_a_func(string: str) -> str:

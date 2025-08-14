@@ -1,5 +1,5 @@
-from src.module1.mod1_b import mod1_b_func
-from src.module1.mod1_a import mod1_a_func
+from module1.mod1_b import mod1_b_func
+from module1.mod1_a import mod1_a_func
 
 
 class TestMod1:
