@@ -4,9 +4,6 @@ from module2.mod2_a import mod2_a_func
 
 
 def mod1_a_func(string: str) -> str:
-    p = Path("data/module1")
-    print(p.absolute().as_posix())
-    print(p.exists())
     with open("data/module1/mod_1_file.txt", "r") as f:
         data1 = f.read().strip()
     with open("data/others/other_file.txt", "r") as f:
